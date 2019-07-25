@@ -1,0 +1,108 @@
+@media screen and (max-width: 768px) {
+	.header {
+		height: 400px;
+	}
+	.navbar-toggle {
+		display: inline;
+		position: absolute;
+		font-size: 18px;
+		transition: .5s ease-out;
+		top: 10px;
+		right: 7px;
+		cursor: pointer;
+	}
+	.navbar-toggle:hover {
+		color: #f05f40;
+	}
+	.leftmenu {
+		padding-left: 1%;
+		/* justify-content: space-between; */
+		/* flex-basis: 50%; */
+	}
+	.leftmenu h2 {
+		font-weight: 300;
+		font-size: 15px;
+		display: inline-block;
+	}
+	.rightmenu ul {
+		display: none;
+	}
+	.headtext h1 {
+		font-size: 30px;
+		margin-top: -40px;
+	}
+	.headtext p {
+		font-size: 15px;
+	}
+	.headhr {
+		width: 25px;
+		border: 1px solid #f05f40;
+	}
+	.btntop {
+		padding: 10px 0;
+		width: 100px;
+		font-weight: bold;
+		margin-top: 20px;
+		font-size: 10px;
+		border-radius: 50px;
+	}
+	.fstcontainer {
+		padding: 20px;
+		/* height: 250px; */
+	}
+	.textarea {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.textarea h1 {
+		font-size: 20px;
+	}
+	.textarea p {
+		font-size: 13px;
+	}
+	.whitebg {
+		margin-top: -10px;
+	}
+	.sndcontainer h2 {
+		font-size: 20px;
+	}
+	.pofilegallery {
+		width: 100%;
+		margin: auto;
+		/* padding: 10px; */
+		/* align-items: center; */
+		justify-content: center;
+		margin-bottom: 10px;
+		flex-wrap: wrap;
+	}
+	.equalwidth {
+		width: 45%;
+		padding: 0 20px 10px 0;
+	}
+	.equalwidth h4 {
+		font-size: 15px;
+	}
+	.equalwidth p {
+		font-size: 13px;
+	}
+	.images img {
+		width: 50%;
+	}
+	.gallerytext h3 {
+		font-size: 18px;
+	}
+	.gallerybtn {
+		margin-bottom: 20px;
+	}
+	footer {
+		padding: 40px 20px 10px 20px;
+	}
+	.footertext {
+		width: 100%;
+	}
+	.footercontact {
+		display: flex;
+		justify-content: space-around;
+		margin: 15px 0;
+	}
+}
